@@ -1,7 +1,3 @@
-
-from typing import Sequence
-
-
 class point():
     def __init__(self,x,y):
             self.y = y
