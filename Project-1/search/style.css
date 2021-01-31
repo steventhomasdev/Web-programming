@@ -7,6 +7,14 @@
   padding: 8px;
 }
 
+#header {
+  font-family: arial,sans-serif;
+  line-height: 24px;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.871);
+  margin-top: 20px;
+}
+
 a {
   font-family: arial,sans-serif;
   line-height: 24px;
@@ -71,5 +79,81 @@ a:hover {
 .google_logo .sub_text {
   color: #4387f4;
   font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
+.heading {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 100px;
+  color: #da3125;
+  font-size: 20px;
+  margin: 25px 35px;
+  font-family: arial,sans-serif;
+}
+
+.border {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.small_heading {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+}
+
+.form #advanced {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.form #advanced div {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#advanced .field input {
+  float: right;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #bfbfbf;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 65%;
+}
+
+#advanced .field_with_or input {
+  float: right;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #bfbfbf;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 28%;
+}
+
+#advanced .field_with_or span {
+  float: right;
+  margin: 0 20px;
+}
+
+.form .button_advance {
+  float: right;
+  margin: 10px 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #4d91fe;
+  border: 1px solid #3179ed;
+  color: white;
+  line-height: 100%;
+  height: 30px;
+  max-width: 120px;
 }
 /*# sourceMappingURL=style.css.map */

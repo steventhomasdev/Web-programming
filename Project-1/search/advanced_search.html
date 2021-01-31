@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0>
+    </head>
+    <body>
+        <header>
+            <nav id = "nav_bar">
+                <ul>
+                    <li><a href="index.html">Google Search</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="heading">
+            <lable>Advanced Search</lable>
+        </div>
+        <div class="border"></div>
+        <div class="small_heading">
+            <lable>Find pages with...</lable>
+        </div>
+        <div class="form">
+            <form id="advanced" action="https://google.com/search">
+                <div class="field">
+                    <lable for="field1">all these words:</lable>
+                    <input id = "field1" type="text" name="as_q" value="">
+                </div>
+                <div class="field">
+                    <lable for="field2">this exact word or phrase:</lable>
+                    <input id = "field2" type="text" name="as_epq" value="">
+                </div>
+                <div class="field">
+                    <lable for="field3">any of these words:</lable>
+                    <input id = "field3" type="text" name="as_oq" value="">
+                </div>
+                <div class="field">
+                    <lable for="field4">none of these words:</lable>
+                    <input id = "field4" type="text" name="as_eq" value="">
+                </div>
+                <div class="field_with_or">
+                    <lable for="field5">numbers ranging from:</lable>
+                    <input id = "field5" type="text" name="as_nlo" value="">
+                    <span class="seperator">to</span>
+                    <input id = "field5" type="text" name="as_nhi" value="">
+                </div>
+                <div>
+                    <input class="button_advance" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+
