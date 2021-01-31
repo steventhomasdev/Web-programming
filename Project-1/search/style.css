@@ -1,18 +1,68 @@
-div {
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.google_logo {
   text-align: center;
-  padding-top: 200px;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 126px;
+  padding-bottom: 20px;
 }
 
-div .text {
-  height: 34px;
-  width: 487px;
-  padding: 3px;
-  overflow: hidden;
-  border-radius: 20px;
+.form {
+  text-align: center;
 }
 
-div .text:hover {
-  -webkit-box-shadow: 0 2px 2px 1px #a19595;
-          box-shadow: 0 2px 2px 1px #a19595;
+.form .text {
+  width: 450px;
+  line-height: 32px;
+  border: 1px solid #f9fafb;
+  border-radius: 25px;
+  margin: 15px 1px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 42px;
+  min-width: 54px;
+  border-color: lightgray;
+  outline: none;
+}
+
+.form .text:hover {
+  border-color: grey;
+}
+
+.form .button {
+  text-align: center;
+  background-color: #eef2f6;
+  border: 1px solid #f9fafb;
+  border-radius: 4px;
+  color: #3c4044;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+}
+
+.form .button:hover {
+  border-color: lightgray;
 }
 /*# sourceMappingURL=style.css.map */

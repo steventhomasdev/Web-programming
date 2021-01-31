@@ -1,20 +1,78 @@
-div{
+#nav_bar {
+    float: right;
+}
+
+#nav_bar{
+    li {
+        display: inline-block;
+        padding: 8px;
+      }
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover{
+    text-decoration: underline;
+}
+
+.google_logo{
     text-align: center;
-    padding-top: 200px;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 126px;
+    padding-bottom: 20px;
+  }
+
+.form{
+    text-align: center;
 }
 
-div{
+.form{
     .text{
-        height: 34px;
-        width: 487px;
-        padding: 3px;
-        overflow: hidden;
-        border-radius:20px;
-        }
-}
-
-div{
-    .text:hover{
-        box-shadow:0 2px 2px 1px rgb(161, 149, 149);
+        width: 450px;
+        line-height: 32px;
+        border: 1px solid hsl(210, 17%, 98%);
+        border-radius: 25px;
+        margin: 15px 1px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 42px;
+        min-width: 54px;
+        border-color: lightgray;
+        outline: none;
     }
 }
+
+.form{
+    .text:hover{
+        border-color:grey;    
+    }    
+}
+
+.form{
+    .button{
+        text-align: center;
+        background-color: hsl(214, 30%, 95%);
+        border: 1px solid hsl(210, 17%, 98%);
+        border-radius: 4px;
+        color: hsl(206, 6%, 25%);
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+    }
+}
+
+.form{
+    .button:hover{
+        border-color:lightgray;    
+    }    
+}
+
