@@ -10,8 +10,11 @@
 } 
 
 a {
+    font-family: arial,sans-serif;
+    line-height: 24px;
+    vertical-align: middle;
+    color: hsla(0, 0%, 0%, 0.871);
     text-decoration: none;
-    color: black;
   }
 
 a:hover{
@@ -24,7 +27,6 @@ a:hover{
     margin: 0 auto;
     clear: both;
     padding-top: 126px;
-    padding-bottom: 20px;
   }
 
 .form{
@@ -33,11 +35,11 @@ a:hover{
 
 .form{
     .text{
-        width: 450px;
-        line-height: 32px;
+        width: 487px;
+        line-height: 34px;
         border: 1px solid hsl(210, 17%, 98%);
         border-radius: 25px;
-        margin: 15px 1px;
+        margin: 15px 2px;
         padding: 0 16px;
         line-height: 27px;
         height: 42px;
@@ -56,7 +58,7 @@ a:hover{
 .form{
     .button{
         text-align: center;
-        background-color: hsl(214, 30%, 95%);
+        background-color: hsl(210, 17%, 98%);
         border: 1px solid hsl(210, 17%, 98%);
         border-radius: 4px;
         color: hsl(206, 6%, 25%);
@@ -76,3 +78,9 @@ a:hover{
     }    
 }
 
+.google_logo{
+    .sub_text{
+        color: hsl(217, 89%, 61%);
+        font: 16px/16px roboto-regular, arial, sans-serif;
+    }
+}

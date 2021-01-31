@@ -8,8 +8,11 @@
 }
 
 a {
+  font-family: arial,sans-serif;
+  line-height: 24px;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.871);
   text-decoration: none;
-  color: black;
 }
 
 a:hover {
@@ -22,7 +25,6 @@ a:hover {
   margin: 0 auto;
   clear: both;
   padding-top: 126px;
-  padding-bottom: 20px;
 }
 
 .form {
@@ -30,11 +32,11 @@ a:hover {
 }
 
 .form .text {
-  width: 450px;
-  line-height: 32px;
+  width: 487px;
+  line-height: 34px;
   border: 1px solid #f9fafb;
   border-radius: 25px;
-  margin: 15px 1px;
+  margin: 15px 2px;
   padding: 0 16px;
   line-height: 27px;
   height: 42px;
@@ -49,7 +51,7 @@ a:hover {
 
 .form .button {
   text-align: center;
-  background-color: #eef2f6;
+  background-color: #f9fafb;
   border: 1px solid #f9fafb;
   border-radius: 4px;
   color: #3c4044;
@@ -64,5 +66,10 @@ a:hover {
 
 .form .button:hover {
   border-color: lightgray;
+}
+
+.google_logo .sub_text {
+  color: #4387f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
