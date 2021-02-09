@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            is it christmas
+        </title>
+        <link  href="{% static 'christmas_check/style.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        {% if christmas %}
+            <h1>Yes</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+    </body>
+</html>
